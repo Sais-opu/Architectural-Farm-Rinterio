@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,42 +26,14 @@
 </head>
 <body>
     <!-- header -->
-    <nav>
-        <div class="navbar bg-base-100">
-        <div class="flex-1">
-            <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                >
-                <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                />
-                </svg>
-            </div>
-            <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-            >
-                <li><a>Home</a></li>
-                <li><a>Shop</a></li>
-                <li><a>News</a></li>
-                <li><a>Contact</a></li>
-            </ul>
-            </div>
+    <nav class="justify-around">
+        <div class="navbar bg-base-100 ">
+            <div class="flex-1">
             <i class="fa-solid fa-arrow-right -rotate-45 p-2 bg-[#ABEF5F] rounded-full space" style="color: #000000;"></i>
             <a class="font-bold text-xl pl-2">Rinterio</a>
-
         </div>
         <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal px-2">
             <li><a>Home</a></li>
             <li><a>Service</a></li>
             <li><a>Portfolio</a></li>
@@ -69,8 +41,11 @@
             <li><a>Contact US</a></li>
             </ul>
         </div>
-        <div class="">
-            <a class="btn bg-bike-primary text-white">Login</a>
+        <div class="justify-between">
+            <i class="fa-solid fa-magnifying-glass bg-red-500 drop-shadow-2xl rounded-full p-3"></i>
+            <i class="fa-solid fa-cart-shopping  bg-red-500 drop-shadow-2xl rounded-full p-3 m-4"></i>
+            <a class="btn bg-[#ABEF5F] text-black pl-2">Book Consult
+            <i class="fa-solid fa-arrow-right -rotate-45 p-2 bg-[#000000] rounded-full space" style="color: #ffffff;"></i></a>
         </div>
         </div>
     </nav>

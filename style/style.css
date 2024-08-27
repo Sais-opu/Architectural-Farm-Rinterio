@@ -7,6 +7,11 @@
   background-image: url(../assets/bg.jpg);
   
 }
+.logimg{
+  background-image: url(../external/log.jpeg);
+  margin: 0 auto;
+  opacity: 50;
+}
 /* mediam16 :manrope font-medium text-base
     extrabold20 : manrope font-extrabold text-xl
     bold40 : manrope font-bold text-4xl

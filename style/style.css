@@ -3,10 +3,9 @@
   font-family: "Manrope", sans-serif;
   
 }
-.opacityfull{
-  /* background-color: rgba(255, 255, 255, 1); */
-  background-color: rgb(150, 65, 65);
-  opacity: 100%;
+.backimg{
+  background-image: url(../assets/bg.jpg);
+  
 }
 /* mediam16 :manrope font-medium text-base
     extrabold20 : manrope font-extrabold text-xl
